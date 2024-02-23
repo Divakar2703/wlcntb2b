@@ -1,0 +1,42 @@
+name: challenge_infracea
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  delayed_display: ^2.0.0
+  animated_notch_bottom_bar: ^1.0.1
+  flutter_svg: ^2.0.9
+  concentric_transition: ^1.0.3
+  animated_page_reveal: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo/
+    - assets/images/companies_logo/
+    - assets/images/seats/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/Montserrat-ExtraLight.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Light.ttf
+        - asset: assets/fonts/Montserrat/Montserrat-Black.ttf
+    - family: Barcode
+      fonts:
+        - asset: assets/fonts/Libre_Barcode_128/LibreBarcode128-Regular.ttf
